@@ -8,10 +8,18 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <h1>Welcome to Template Electron App</h1>
+      <div class="container">
+    <h1>Cadastro de Cursos</h1>
 
-    <p>Esse é um template em Electron</p>
-    <!-- Arquivo para manipular nosso DOM   -->
+    <form>
+      <input type="text" placeholder="Nome do curso" required />
+      <input type="number" placeholder="Carga horária (h)" required />
+      <button type="submit">Cadastrar Curso</button>
+    </form>
+
+    <h2>Cursos Cadastrados</h2>
+    <ul></ul>
+  </div>
     <script src="../js/script.js"></script>
 </body>
 </html>
