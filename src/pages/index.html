@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template do Electron app</title>
+    <title>Cadastro do Curso</title>
 
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
@@ -11,9 +11,9 @@
       <div class="container">
     <h1>Cadastro de Cursos</h1>
 
-    <form>
-      <input type="text" placeholder="Nome do curso" required />
-      <input type="number" placeholder="Carga horária (h)" required />
+    <form id="form-curso">
+      <input id = "nome-curso" type="text" placeholder="Nome do curso" required />
+      <input id = "carga-horaria" type="number" placeholder="Carga horária (h)" required />
       <button type="submit">Cadastrar Curso</button>
     </form>
 
